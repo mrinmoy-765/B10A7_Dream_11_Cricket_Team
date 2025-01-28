@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "playerName": "Virat Kohli",
+      "playerCountry": "India",
+      "playerType": "Batsman",
+      "rating": 9.5,
+      "battingHand": "Right-handed",
+      "price": 1200000
+    },
+    {
+      "id": 2,
+      "playerName": "Steve Smith",
+      "playerCountry": "Australia",
+      "playerType": "Batsman",
+      "rating": 9.2,
+      "battingHand": "Right-handed",
+      "price": 1150000
+    },
+    {
+      "id": 3,
+      "playerName": "Ben Stokes",
+      "playerCountry": "England",
+      "playerType": "Allrounder",
+      "rating": 9.0,
+      "battingHand": "Left-handed",
+      "price": 1300000
+    },
+    {
+      "id": 4,
+      "playerName": "Rashid Khan",
+      "playerCountry": "Afghanistan",
+      "playerType": "Bowler",
+      "rating": 8.8,
+      "battingHand": "Right-handed",
+      "price": 1000000
+    },
+    {
+      "id": 5,
+      "playerName": "Kane Williamson",
+      "playerCountry": "New Zealand",
+      "playerType": "Batsman",
+      "rating": 9.1,
+      "battingHand": "Right-handed",
+      "price": 1100000
+    },
+    {
+      "id": 6,
+      "playerName": "Mitchell Starc",
+      "playerCountry": "Australia",
+      "playerType": "Bowler",
+      "rating": 8.9,
+      "battingHand": "Left-handed",
+      "price": 1050000
+    },
+    {
+      "id": 7,
+      "playerName": "Andre Russell",
+      "playerCountry": "West Indies",
+      "playerType": "Allrounder",
+      "rating": 9.3,
+      "battingHand": "Right-handed",
+      "price": 1250000
+    },
+    {
+      "id": 8,
+      "playerName": "Jos Buttler",
+      "playerCountry": "England",
+      "playerType": "Batsman",
+      "rating": 9.0,
+      "battingHand": "Right-handed",
+      "price": 1150000
+    },
+    {
+      "id": 9,
+      "playerName": "Jasprit Bumrah",
+      "playerCountry": "India",
+      "playerType": "Bowler",
+      "rating": 8.7,
+      "battingHand": "Right-handed",
+      "price": 1100000
+    },
+    {
+      "id": 10,
+      "playerName": "Shakib Al Hasan",
+      "playerCountry": "Bangladesh",
+      "playerType": "Allrounder",
+      "rating": 8.8,
+      "battingHand": "Left-handed",
+      "price": 950000
+    },
+    {
+      "id": 11,
+      "playerName": "Faf du Plessis",
+      "playerCountry": "South Africa",
+      "playerType": "Batsman",
+      "rating": 8.6,
+      "battingHand": "Right-handed",
+      "price": 900000
+    },
+    {
+      "id": 12,
+      "playerName": "Pat Cummins",
+      "playerCountry": "Australia",
+      "playerType": "Bowler",
+      "rating": 8.9,
+      "battingHand": "Right-handed",
+      "price": 1100000
+    }
+]
+
+  
