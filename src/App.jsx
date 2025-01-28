@@ -1,6 +1,5 @@
 import Header from './components/Navbar/navbar'
 import Banner from './components/Banner/banner'
-//import Players from './components/Players/Players'
 import Body from './components/Body/Body'
 import './App.css'
 import { useState } from 'react'
@@ -9,10 +8,15 @@ function App() {
 
   const [selectplayer, setSelectplayer] = useState([]);
 
-  const handleSelectPlayer  = playerInfo =>{
+  const handleSelectPlayer  = (playerInfo) =>{
       const newSelectedPlayers = [...selectplayer,playerInfo];
       setSelectplayer(newSelectedPlayers);
   }
+
+   const removePlayer = (id) => {
+    console.log("Player removed:", id);
+    setSelectplayer((prev) => prev.filter((player) => player.id !== id));
+  };
 
   return (
 
@@ -20,7 +24,8 @@ function App() {
     <Header></Header>
     <Banner></Banner>
     <Body handleSelectPlayer={handleSelectPlayer}
-          selectplayer={selectplayer}></Body>
+          selectplayer={selectplayer}
+          removePlayer={removePlayer}></Body>
     </>
 
 

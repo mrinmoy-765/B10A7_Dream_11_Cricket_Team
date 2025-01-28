@@ -10,6 +10,9 @@ export default function Players({handleSelectPlayer}) {
       .then((res) => res.json())
       .then((data) => setPlayers(data));
   }, []);
+  
+  //  const updatedPlayers = players.filter((player) => player.id !== );
+  //   setPlayers(updatedPlayers);
 
   return (
     <div className="mx-auto">

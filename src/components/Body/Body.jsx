@@ -3,7 +3,7 @@ import Players from '../Players/Players';
 import Selecteds from '../Selecteds/Selecteds';
 import PropTypes from 'prop-types';
 
-export default function Body({ handleSelectPlayer,selectplayer }) {
+export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
   const [isSelectedVisible, setIsSelectedVisible] = useState(false);
 
   const handleSelect = () => {
@@ -45,7 +45,8 @@ export default function Body({ handleSelectPlayer,selectplayer }) {
         </div>
       </div>
 
-      {isSelectedVisible ? <Selecteds selectplayer={selectplayer} /> : <Players handleSelectPlayer={handleSelectPlayer} />}
+      {isSelectedVisible ? <Selecteds selectplayer={selectplayer}
+        removePlayer={removePlayer}/> : <Players handleSelectPlayer={handleSelectPlayer} />}
     </div>
   );
 }
@@ -53,5 +54,6 @@ export default function Body({ handleSelectPlayer,selectplayer }) {
 
     Body.propTypes = {
     handleSelectPlayer: PropTypes.func.isRequired, 
+    removePlayer: PropTypes.func.isRequired, 
     selectplayer:PropTypes.object,
    };

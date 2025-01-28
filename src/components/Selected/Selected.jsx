@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { MdOutlineDeleteForever } from "react-icons/md";
 
-export default function Selected({ selectplayer }) {
-  const { playerName, playerType,price } = selectplayer;
+export default function Selected({ selectplayer, removePlayer }) {
+  const { id,playerName, playerType,price } = selectplayer;
   return (
 
       <div className="bg-gray-100 rounded-2xl  p-6 w-full  mb-3">
@@ -24,7 +24,9 @@ export default function Selected({ selectplayer }) {
           </div>
        </div>
        <div className="pt-2">
-        <button className="text-4xl text-red-500"><MdOutlineDeleteForever /></button>
+        <button 
+         onClick={() => removePlayer(id)} // Pass the ID to the function
+        className="text-4xl text-red-500"><MdOutlineDeleteForever /></button>
        </div>
        </div>
        
@@ -35,4 +37,5 @@ export default function Selected({ selectplayer }) {
 
 Selected.propTypes = {
   selectplayer: PropTypes.object,
+   removePlayer:PropTypes.func,
 };

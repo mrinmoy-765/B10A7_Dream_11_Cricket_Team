@@ -3,7 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { FaFlag } from "react-icons/fa";
 
 export default function Player({ playerInfo,handleSelectPlayer}) {
-  const { id, playerName, playerCountry, playerType, rating, battingHand, price } = playerInfo;
+  const { playerName, playerCountry, playerType, rating, battingHand, price } = playerInfo;
 
   return (
     <div className="flex justify-center">
