@@ -4,7 +4,7 @@ import { FaFlag } from "react-icons/fa";
 
 export default function Player({ playerInfo,handleSelectPlayer}) {
   const { playerName, playerCountry, playerType, rating, battingHand, price } = playerInfo;
-  // const [message, setMessage] = useState("");
+
 
 
   return (
@@ -37,8 +37,9 @@ export default function Player({ playerInfo,handleSelectPlayer}) {
            <button 
            onClick={()=>handleSelectPlayer(playerInfo)}
            className="text-sm ">Choose Player</button>
+           
       </div>
-      {/* {message && <div className="text-red-500">{message}</div>} */}
+ 
 
 
         </div>
