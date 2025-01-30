@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import Selected from '../Selected/Selected'
-import React, { useState } from 'react';
+
 
 
 export default function Selecteds({ selectplayer, removePlayer, handleAvailable }) {
@@ -29,5 +29,6 @@ export default function Selecteds({ selectplayer, removePlayer, handleAvailable 
 Selecteds.propTypes = {
   selectplayer: PropTypes.array.isRequired,
   removePlayer: PropTypes.func.isRequired,
+  handleAvailable: PropTypes.func.isRequired,
 };
 
