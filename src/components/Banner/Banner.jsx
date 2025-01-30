@@ -2,7 +2,7 @@ import React from 'react';
 import banner from '../../assets/banner-main.png';
 import shadow from '../../assets/bg-shadow.png';
 
-export default function Banner() {
+export default function Banner({freeCredit}) {
   return (
     <div className="relative flex justify-center items-center h-screen">
       {/* Shadow Background */}
@@ -31,7 +31,7 @@ export default function Banner() {
           Beyond Boundaries, Beyond Limits
         </h2>
         <div className="mt-4 border-2 border-yellow-300 p-2 rounded-3xl">
-           <button className="px-4 py-2 bg-yellow-300 text-black font-bold rounded-2xl hover:bg-yellow-400 transition">
+           <button onClick={freeCredit} className="px-4 py-2 bg-yellow-300 text-black font-bold rounded-2xl hover:bg-yellow-400 transition">
             Claim Free Credit</button>
         </div>
 

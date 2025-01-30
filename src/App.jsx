@@ -7,6 +7,15 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+
+  const [coin, setCoin] = useState(0);
+
+  const freeCredit = () => {
+    setCoin(prevCoin => prevCoin + 50000); // Proper state update
+  };
+  
+  console.log(coin);
+
   const [selectplayer, setSelectplayer] = useState([]);
 
   const handleSelectPlayer = (playerInfo) => {
@@ -43,8 +52,8 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Banner />
+      <Header coin={coin} />
+      <Banner  freeCredit={freeCredit} />
       <ToastContainer />
       <Body 
         handleSelectPlayer={handleSelectPlayer}
