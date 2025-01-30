@@ -3,6 +3,7 @@ import Players from '../Players/Players';
 import Selecteds from '../Selecteds/Selecteds';
 import PropTypes from 'prop-types';
 
+
 export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
   const [isSelectedVisible, setIsSelectedVisible] = useState(false);
 
@@ -13,6 +14,10 @@ export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
   const handleAvailable = () => {
     setIsSelectedVisible(false); // Show Players component
   };
+
+
+
+
 
   return (
     <div className="px-16 mx-auto">
@@ -40,12 +45,12 @@ export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
               backgroundColor: isSelectedVisible ? 'yellow' : 'transparent',
             }}
           >
-            Selected
+            Selected ({selectplayer.length})
           </button>
         </div>
       </div>
 
-      {isSelectedVisible ? <Selecteds selectplayer={selectplayer}
+      {isSelectedVisible ? <Selecteds handleAvailable={handleAvailable} selectplayer={selectplayer}
         removePlayer={removePlayer}/> : <Players handleSelectPlayer={handleSelectPlayer} />}
     </div>
   );

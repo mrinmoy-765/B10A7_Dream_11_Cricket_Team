@@ -36,13 +36,9 @@ export default function Player({ playerInfo,handleSelectPlayer}) {
        <div className="border-2 rounded px-2 py-1 hover:bg-yellow-300 hover:border-gray-500">
            <button 
            onClick={()=>handleSelectPlayer(playerInfo)}
-           className="text-sm ">Choose Player</button>
-           
+           className="text-sm ">Choose Player</button>   
       </div>
- 
-
-
-        </div>
+      </div>
       </div>
       </div>
     </div>

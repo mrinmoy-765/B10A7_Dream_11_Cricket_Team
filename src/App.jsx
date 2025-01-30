@@ -18,6 +18,14 @@ function App() {
       return;
     }
 
+    if(selectplayer.length == 6){
+      toast.warning("You can't select more than 6 players", {
+        position: "top-center",
+        autoClose: 2000,
+      });
+      return;
+    }
+
     setSelectplayer([...selectplayer, playerInfo]);
     toast.success(`${playerInfo.playerName} added successfully!`, {
       position: "top-center",
