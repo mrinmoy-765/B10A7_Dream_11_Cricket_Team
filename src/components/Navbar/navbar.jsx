@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from '../../assets/logo.png';
+import PropTypes from "prop-types";
+import logo from "../../assets/logo.png";
 import { RiCoinsLine } from "react-icons/ri";
 
-export default function Navbar({coin}) {
+export default function Navbar({ coin }) {
   return (
     <div className="flex justify-between items-center px-6 py-4 bg-gray-100">
       <div>
@@ -21,4 +21,10 @@ export default function Navbar({coin}) {
     </div>
   );
 }
+
+// Prop validation
+Navbar.propTypes = {
+  coin: PropTypes.number.isRequired, // Ensures 'coin' is a required number
+};
+
 

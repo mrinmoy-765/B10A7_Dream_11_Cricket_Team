@@ -18,42 +18,51 @@ export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
 
 
 
-
-  return (
-    <div className="px-16 mx-auto">
-      <div className="flex place-content-between mt-4 mb-4">
-        <div>
-          <h1 className="font-semibold text-xl">Available Players</h1>
-        </div>
-
-        <div>
-          <button
-            className="px-4 py-2 border-t-2 border-b-2 border-l-2 rounded-l-lg"
-            onClick={handleAvailable}
-            style={{
-              fontWeight: !isSelectedVisible ? 'bold' : 'normal',
-              backgroundColor: !isSelectedVisible ? 'yellow' : 'transparent',
-            }}
-          >
-            Available
-          </button>
-          <button
-            className="px-4 py-2 border-t-2 border-b-2 border-r-2 rounded-r-lg"
-            onClick={handleSelect}
-            style={{
-              fontWeight: isSelectedVisible ? 'bold' : 'normal',
-              backgroundColor: isSelectedVisible ? 'yellow' : 'transparent',
-            }}
-          >
-            Selected ({selectplayer.length})
-          </button>
-        </div>
+return (
+  <div className="px-16 mx-auto">
+    <div className="flex place-content-between mt-4 mb-4">
+      <div>
+        <h1 className="font-semibold text-xl">
+          {isSelectedVisible ? "Selected Players" : "Available Players"}
+        </h1>
       </div>
 
-      {isSelectedVisible ? <Selecteds handleAvailable={handleAvailable} selectplayer={selectplayer}
-        removePlayer={removePlayer}/> : <Players handleSelectPlayer={handleSelectPlayer} />}
+      <div>
+        <button
+          className="px-4 py-2 border-t-2 border-b-2 border-l-2 rounded-l-lg"
+          onClick={handleAvailable}
+          style={{
+            fontWeight: !isSelectedVisible ? "bold" : "normal",
+            backgroundColor: !isSelectedVisible ? "yellow" : "transparent",
+          }}
+        >
+          Available
+        </button>
+        <button
+          className="px-4 py-2 border-t-2 border-b-2 border-r-2 rounded-r-lg"
+          onClick={handleSelect}
+          style={{
+            fontWeight: isSelectedVisible ? "bold" : "normal",
+            backgroundColor: isSelectedVisible ? "yellow" : "transparent",
+          }}
+        >
+          Selected ({selectplayer.length})
+        </button>
+      </div>
     </div>
-  );
+
+    {isSelectedVisible ? (
+      <Selecteds
+        handleAvailable={handleAvailable}
+        selectplayer={selectplayer}
+        removePlayer={removePlayer}
+      />
+    ) : (
+      <Players handleSelectPlayer={handleSelectPlayer} />
+    )}
+  </div>
+);
+
 }
 
 

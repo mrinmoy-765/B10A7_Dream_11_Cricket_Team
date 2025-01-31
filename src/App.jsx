@@ -10,9 +10,16 @@ function App() {
   const [coin, setCoin] = useState(0);
   const [selectplayer, setSelectplayer] = useState([]);
 
+
   const freeCredit = () => {
     setCoin((prevCoin) => prevCoin + 50000); // Add free credits
+    toast.success("$50000 has been added in your account!", {
+        position: "top-center",
+        autoClose: 2000,
+      });
   };
+
+
 
   const handleSelectPlayer = (playerInfo) => {
     if (selectplayer.some((player) => player.id === playerInfo.id)) {
