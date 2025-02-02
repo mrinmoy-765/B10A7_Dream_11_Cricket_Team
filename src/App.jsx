@@ -1,7 +1,8 @@
 import Header from './components/Navbar/navbar';
 import Banner from './components/Banner/banner';
 import Body from './components/Body/Body';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+import NewsLetter from './components/NewsLetter/NewsLetter';
 import './App.css';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -79,6 +80,7 @@ function App() {
         selectplayer={selectplayer}
         removePlayer={removePlayer}
       />
+      <NewsLetter/>
       <Footer/>
     </>
   );

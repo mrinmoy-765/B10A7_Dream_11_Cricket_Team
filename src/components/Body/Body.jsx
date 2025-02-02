@@ -19,12 +19,12 @@ export default function Body({ handleSelectPlayer,selectplayer,removePlayer }) {
 
 
 return (
-  <div className="px-16 mx-auto mb-72">
+  <div className="px-16 mx-auto mb-72 relative">
     <div className="flex place-content-between mt-4 mb-4">
       <div>
-        <h1 className="font-semibold text-xl">
-          {isSelectedVisible ? "Selected Players" : "Available Players"}
-        </h1>
+       <h1 className="font-semibold text-xl">
+            {isSelectedVisible ? `Selected Players (${selectplayer.length})` : "Available Players"}
+       </h1>
       </div>
 
       <div>

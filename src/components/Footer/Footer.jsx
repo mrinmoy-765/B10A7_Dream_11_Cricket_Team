@@ -2,7 +2,7 @@ import logo from '../../assets/logo-footer.png';
 export default function Footer() {
   return (
     <div className="bg-slate-950">
-        <div className="grid place-items-center pt-72">
+        <div className="grid place-items-center pt-52">
             <img src={logo} alt="" />
         </div>
         <div className="grid grid-cols-3 gap-4 px-48 pt-24  pb-36">
