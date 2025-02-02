@@ -4,7 +4,7 @@ import shadow from '../../assets/bg-shadow.png';
 
 export default function Banner({freeCredit}) {
   return (
-    <div className="relative flex justify-center items-center h-screen">
+    <div className="relative flex justify-center items-center h-screen mx-20 rounded-2xl bg-gray-200 border border-gray-400 overflow-hidden">
       {/* Shadow Background */}
       <div className="absolute inset-0 bg-black bg-opacity-100">
         <img

@@ -1,112 +1,126 @@
 [
-    {
-      "id": 1,
-      "playerName": "Virat Kohli",
-      "playerCountry": "India",
-      "playerType": "Batsman",
-      "rating": 9.5,
-      "battingHand": "Right-handed",
-      "price": 1200000
-    },
-    {
-      "id": 2,
-      "playerName": "Steve Smith",
-      "playerCountry": "Australia",
-      "playerType": "Batsman",
-      "rating": 9.2,
-      "battingHand": "Right-handed",
-      "price": 1150000
-    },
-    {
-      "id": 3,
-      "playerName": "Ben Stokes",
-      "playerCountry": "England",
-      "playerType": "Allrounder",
-      "rating": 9.0,
-      "battingHand": "Left-handed",
-      "price": 1300000
-    },
-    {
-      "id": 4,
-      "playerName": "Rashid Khan",
-      "playerCountry": "Afghanistan",
-      "playerType": "Bowler",
-      "rating": 8.8,
-      "battingHand": "Right-handed",
-      "price": 1000000
-    },
-    {
-      "id": 5,
-      "playerName": "Kane Williamson",
-      "playerCountry": "New Zealand",
-      "playerType": "Batsman",
-      "rating": 9.1,
-      "battingHand": "Right-handed",
-      "price": 1100000
-    },
-    {
-      "id": 6,
-      "playerName": "Mitchell Starc",
-      "playerCountry": "Australia",
-      "playerType": "Bowler",
-      "rating": 8.9,
-      "battingHand": "Left-handed",
-      "price": 1050000
-    },
-    {
-      "id": 7,
-      "playerName": "Andre Russell",
-      "playerCountry": "West Indies",
-      "playerType": "Allrounder",
-      "rating": 9.3,
-      "battingHand": "Right-handed",
-      "price": 1250000
-    },
-    {
-      "id": 8,
-      "playerName": "Jos Buttler",
-      "playerCountry": "England",
-      "playerType": "Batsman",
-      "rating": 9.0,
-      "battingHand": "Right-handed",
-      "price": 1150000
-    },
-    {
-      "id": 9,
-      "playerName": "Jasprit Bumrah",
-      "playerCountry": "India",
-      "playerType": "Bowler",
-      "rating": 8.7,
-      "battingHand": "Right-handed",
-      "price": 1100000
-    },
-    {
-      "id": 10,
-      "playerName": "Shakib Al Hasan",
-      "playerCountry": "Bangladesh",
-      "playerType": "Allrounder",
-      "rating": 8.8,
-      "battingHand": "Left-handed",
-      "price": 950000
-    },
-    {
-      "id": 11,
-      "playerName": "Faf du Plessis",
-      "playerCountry": "South Africa",
-      "playerType": "Batsman",
-      "rating": 8.6,
-      "battingHand": "Right-handed",
-      "price": 900000
-    },
-    {
-      "id": 12,
-      "playerName": "Pat Cummins",
-      "playerCountry": "Australia",
-      "playerType": "Bowler",
-      "rating": 8.9,
-      "battingHand": "Right-handed",
-      "price": 1100000
-    }
+  {
+    "id": 1,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "battingHand": "Right-handed",
+    "price": 1200000,
+    "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2023-07/Virat%20Kohli%20scores%20a%20century.jpg?h=a9edb586&itok=wwWPFeKC"
+  },
+  {
+    "id": 2,
+    "playerName": "Steve Smith",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.2,
+    "battingHand": "Right-handed",
+    "price": 1150000,
+    "image": "https://images.icc-cricket.com/image/upload/t_ratio21_9-size60/prd/fruwvqbxs9mhcw10bjwm"
+  },
+  {
+    "id": 3,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "Allrounder",
+    "rating": 9.0,
+    "battingHand": "Left-handed",
+    "price": 1300000,
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-03/31/full/1680235601-1227.jpg"
+  },
+  {
+    "id": 4,
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 8.8,
+    "battingHand": "Right-handed",
+    "price": 1000000,
+    "image": "https://c.ndtvimg.com/2023-08/a9rtrp18_rashid-khan-806_625x300_24_August_23.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+  },
+  {
+    "id": 5,
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 9.1,
+    "battingHand": "Right-handed",
+    "price": 1100000,
+    "image": "https://institute.careerguide.com/wp-content/uploads/2024/04/Kane-Williamson-1024x768.webp"
+  },
+  {
+    "id": 6,
+    "playerName": "Mitchell Starc",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 8.9,
+    "battingHand": "Left-handed",
+    "price": 1050000,
+    "image": "https://images.news18.com/ibnlive/uploads/2023/12/mitchell-starc-ipl-auction-2023-12-c4220edc05b2e3c6d1fa46a0e355d4c3.jpg?impolicy=website&width=640&height=480"
+  },
+  {
+    "id": 7,
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "Allrounder",
+    "rating": 9.3,
+    "battingHand": "Right-handed",
+    "price": 1250000,
+    "image": "https://static.toiimg.com/thumb/msid-115234651,width-1280,height-720,imgsize-46222,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+  },
+  {
+    "id": 8,
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 9.0,
+    "battingHand": "Right-handed",
+    "price": 1150000,
+    "image": "https://www.dailypioneer.com/uploads/2018/story/images/big/we-are-in-charge-of-the-game--jos-buttler-2018-09-09.jpg"
+  },
+  {
+    "id": 9,
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 8.7,
+    "battingHand": "Right-handed",
+    "price": 1100000,
+    "image": "https://static.tnn.in/thumb/msid-111292842,thumbsize-43926,width-1280,height-720,resizemode-75/111292842.jpg"
+  },
+  {
+    "id": 10,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "Allrounder",
+    "rating": 8.8,
+    "battingHand": "Left-handed",
+    "price": 950000,
+    "image": "https://static.cricketaddictor.com/images/2024/ShakibT20WC.webp?q=80"
+  },
+  {
+    "id": 11,
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playerType": "Batsman",
+    "rating": 8.6,
+    "battingHand": "Right-handed",
+    "price": 900000,
+    "image": "https://res.cloudinary.com/jerrick/image/upload/v1701890867/6570cb31008cd5001c9d49e6.jpg"
+  },
+  {
+    "id": 12,
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 8.9,
+    "battingHand": "Right-handed",
+    "price": 1100000,
+    "image": "https://www.athletesvoice.com.au/wp-content/uploads/2019/12/AV_CUMMINS_1280x720.jpg"
+  }
 ]
 
-  
+
+
+

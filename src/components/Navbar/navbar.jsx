@@ -4,7 +4,7 @@ import { RiCoinsLine } from "react-icons/ri";
 
 export default function Navbar({ coin }) {
   return (
-    <div className="flex justify-between items-center px-6 py-4 bg-gray-100">
+    <div className="flex justify-between items-center px-6 py-4 bg-white mx-20">
       <div>
         <img src={logo} alt="Logo" className="h-10" />
       </div>

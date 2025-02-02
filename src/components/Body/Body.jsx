@@ -23,7 +23,7 @@ return (
     <div className="flex place-content-between mt-4 mb-4">
       <div>
        <h1 className="font-semibold text-xl">
-            {isSelectedVisible ? `Selected Players (${selectplayer.length})` : "Available Players"}
+            {isSelectedVisible ? `Selected Players (${selectplayer.length}/6)` : "Available Players"}
        </h1>
       </div>
 

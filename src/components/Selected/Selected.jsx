@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { MdOutlineDeleteForever } from "react-icons/md";
 
 export default function Selected({ selectplayer, removePlayer }) {
-  const { id,playerName, playerType,price } = selectplayer;
+  const { id,playerName, playerType,price, image } = selectplayer;
   return (
 
 
@@ -11,7 +11,7 @@ export default function Selected({ selectplayer, removePlayer }) {
         <div  className="flex">
          <figure>
          <img
-             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+             src={image}
              alt={playerName}
              className="w-16 h-16 rounded-full object-cover"
            />
